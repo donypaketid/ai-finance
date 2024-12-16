@@ -1,8 +1,18 @@
 [phases.setup]
+# Menentukan package Nix yang diperlukan
+nixPkgs = ['python3', 'gcc']
+
+# Menginstall dependencies dari requirements.txt
 cmds = ["pip install -r requirements.txt"]
 
 [phases.start]
+# Command untuk menjalankan aplikasi Flask
 cmd = "python main_api.py"
 
 [environment]
+# Variabel lingkungan untuk memastikan logging tidak di-buffer
 PYTHONUNBUFFERED = "1"
+
+[start]
+# Command untuk container runtime
+cmd = "python main_api.py"
