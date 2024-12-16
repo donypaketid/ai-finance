@@ -1,0 +1,3 @@
+# Masukkan API URL dan Service Key dari Supabase
+SUPABASE_URL = "https://kxhgjmhhouklfwohlawd.supabase.co"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt4aGdqbWhob3VrbGZ3b2hsYXdkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczMjI1MzE5MSwiZXhwIjoyMDQ3ODI5MTkxfQ.FvbbjfdnHQNcBTaEzuIQY6y6zGfnOXMbdAvKS9rbL_o"
