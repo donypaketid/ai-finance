@@ -1,7 +1,9 @@
 from flask import Flask
 from predict_organization_rate import predict_organization_rate, predict_all_organization_rate
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def home():
