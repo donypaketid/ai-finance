@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello, ngrok"
+    return "Hello, ngrok. Ayo belajar AI !"
 # 
 @app.route('/predict/<organization_code>', methods=['PUT'])
 def predict(organization_code):
