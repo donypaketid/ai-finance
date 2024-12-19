@@ -9,7 +9,7 @@ def fetch_invoices_data(organization_code: str, limit: int):
     response = (supabase
                 .table(TABLE_INVOICES)
                 .select("*")
-                .eq("organization_cde", organization_code)
+                .eq("organization_code", organization_code)
                 .order("issue_date")
                 .limit(limit)
                 .execute())
